@@ -1,0 +1,64 @@
+form {
+    background-image: linear-gradient(rgba(233, 158, 171, 0.856), rgba(231, 126, 143, 0.5)),
+                      url("Icons.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 90%;
+    max-width: 600px;
+    min-height: 400px; 
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #ffd9e5; 
+}
+
+/* Main Title (h1) Styling */
+#main-title {
+    font-family: 'Poppins', serif; 
+    font-size: 48px; 
+    color: #df3467;
+    text-align: center; 
+    text-decoration: underline; 
+    padding: 15px; 
+}
+
+/* Subtitle (h2) Styling */
+#subtitle {
+    font-family: 'Poppins', serif; /* Match the font for consistency */
+    font-size: 32px; /* Slightly smaller than the main title */
+    font-style: italic; /* Add a subtle elegant touch */
+    color: #df3467; 
+    text-align: center; /* Center the subtitle */
+    margin: 10px auto; /* Add space above and below */
+    padding: 10px; /* Space around the text */
+}
+img{
+        display: block; /* Ensures the image can be centered */
+        margin: 0 auto; /* Centers the image horizontally */
+        width: 500px; /* Specifies the width */
+        height: 500px; /* Specifies the height */
+        border-radius: 20px; /* Adds rounded corners */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    }
+    
+    img:hover {
+        transform: scale(1.1); 
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+    }
+footer {
+        background-color: #ce6c79; 
+        color: #fff;
+        text-align: center;
+        padding: 15px; 
+        font-family: 'Poppins', sans-serif; 
+        font-size: 16px; 
+        border-radius: 10px; 
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+        margin-top: 30px; 
+    }
+      
+
+
+  
